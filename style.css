@@ -1,0 +1,39 @@
+@font-face {
+    font-family: rockwell;
+    src: url(fonts/Rockwell.TTF);
+    font-weight: regular;
+  }
+@font-face {
+    font-family: rockwellbold;
+    src: url(fonts/Rockwell-Bold.ttf);
+    font-weight: bold;
+  }
+
+html{
+    margin: 6px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    
+}
+
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: rockwell;
+    font-size: 30px;
+  
+
+  }

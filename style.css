@@ -9,31 +9,66 @@
     font-weight: bold;
   }
 
+
 html{
     margin: 6px;
 }
 
+
+
 nav{
+    background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: center
-    
+    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 20px;
+
 }
 
 ul{ 
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
+    
 }
 
 li a {
-    display: block;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 10px;
     text-decoration: none;
     font-family: rockwell;
     font-size: 30px;
-  
+    color: #ffff;
+    
+   
 
   }
+
+.intro{
+    background-color: black;
+    height: 300px;
+    display: flex;
+
+}
+.intro h1{
+    color: white;
+    font-family: rockwell;
+    font-weight: lighter;
+    font-size: 40px;
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 70px;
+    z-index: 2 ;
+
+  }
+
+.me{
+    margin-top: 50px;
+    margin-right: -15px;
+    z-index: 1;
+    height: 200px;
+    
+}

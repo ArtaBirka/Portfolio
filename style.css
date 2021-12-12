@@ -185,7 +185,6 @@ h4{
     box-shadow: 5px 5px 5px#949090;
     width: 250px;
     background-color: transparent;
-    
     align-self: center;
     font-family: rockwell;
     font-weight: lighter;
@@ -206,6 +205,9 @@ h4{
     font-weight: lighter;
     font-size: 20px;
 }
+
+.process:hover { background-color: #949090; }
+.website:hover { background-color: #949090; }
 
 .projects h3{
     font-family: rockwell;

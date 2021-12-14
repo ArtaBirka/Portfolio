@@ -96,7 +96,7 @@
 
             <div class="Hl"></div>
 
-            <img  src="images/Space.png" alt="">
+            <img class="projectpic" src="images/Space.png" alt="">
             <button class="website">view the full website</button>
             <button class="process">view the process</button>
             
@@ -104,22 +104,7 @@
 
         </div>
 
-        <div class="DanceSchool">
-
-            <h3>Dance school</h3>
-            <p>This is a website for a contemporary dance school.</p>
-            <p>I created mockups, designed and coded the application form for the website.  For the visual I created a silhouette of a dancer in photoshop.</p>
-            <img src="/images/tools.used.1.png" alt="">
-
-            <div class="Hl"></div>
-
-            <img  src="images/contemporary.png" alt="">
-            <button class="website">view the full website</button>
-            <button class="process">view the process</button>
-        
-            <div class="Hl"></div>
-            
-        </div>
+     
 
         <div class="Bollywood">
 
@@ -130,7 +115,7 @@
 
             <div class="Hl"></div>
 
-            <img  src="images/bollywood.png" alt="">
+            <img class="projectpic" src="images/bollywood.png" alt="">
             <button class="website">view the full website</button>
             <button class="process">view the process</button>
 
@@ -147,7 +132,7 @@
 
             <div class="Hl"></div>
 
-            <img  src="images/ecocover.png" alt="">
+            <img class="projectpic" src="images/ecocover.png" alt="">
             <button class="website">view the full website</button>
             <button class="process">view the process</button>
 
@@ -164,15 +149,109 @@
             
             <div class="Hl"></div>
 
-            <img  src="images/sales.png" alt="">
+            <img class="projectpic" src="images/sales.png" alt="">
             <button class="website">view the full website</button>
             <button class="process">view the process</button>
 
-            <div class="Hl"></div>
+            
             
         </div>
 
     </section>
+
+
+<section class="projects-camera">
+
+    <h2 id="projects"> Projects </h2>
+    <div class="Hl"></div>
+    <h4 id="projects"> Photography </h4>
+
+    <h3>Personal gallery</h3>
+   
+
+    <p> Photography has always been a passion of mine and my biggest inspiration comes from nature. </p>
+    <p>These are some of my favorite photos I have shot and edited in Photoshop.</p>
+   
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        
+          <img src="/images/grifs.JPG" style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+         
+          <img src="/images/cat.JPG" style="width:100%">
+        
+        </div>
+
+        <div class="mySlides fade">
+         
+            <img src="/images/ducks.JPG" style="width:100%">
+          
+        </div>
+
+        <div class="mySlides fade">
+         
+            <img src="/images/bird.JPG" style="width:100%">
+          
+        </div>
+
+
+        <div class="mySlides fade">
+         
+            <img src="/images/berry.JPG" style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+        
+          <img src="/images/flower.JPG" style="width:100%">
+         
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+    </div>    
+ 
+
+   
+<script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+
+
+</script>
+
+
+</section>
+
 
 
 

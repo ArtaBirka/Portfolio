@@ -134,6 +134,13 @@ h4{
     width: 100%;
 }
 
+.H2 {
+    background-color: #000;
+    height: 2px;
+    width: 100%;
+}
+
+
 
 .about p{
     
@@ -176,6 +183,7 @@ h4{
 .SpaceOdyssey{
     display: flex;
     flex-direction: column;
+   
 }
 
 .projects img {
@@ -197,7 +205,8 @@ h4{
     box-shadow: 5px 5px 5px#949090;
     width: 250px;
     background-color: transparent;
-    align-self: center;
+    display: block;
+    margin: auto;
     font-family: rockwell;
     font-weight: lighter;
     font-size: 20px;
@@ -212,7 +221,9 @@ h4{
     background-color: transparent;
     margin-top: 30px;
     margin-bottom: 40px;
-    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-family: rockwell;
     font-weight: lighter;
     font-size: 20px;
@@ -328,7 +339,77 @@ footer img{
 
 @media (min-width: 1000px) {
 
+html{
+    margin: 50px;
+}
 
+.intro{
+    flex-direction: row;
+    height: 750px;
+    margin-bottom: 50px;
+}
+.me{
+    width: 600px;
+}
+.aboutme{
+    flex-direction: row;
+}
 
+.skills{
+    margin-top: 0;
+}
+
+.languagesv{
+    margin: auto;
+}
+
+.H2{
+    display: none;
+}
+
+.projects img{
+    margin-top: 40px;
+}
+
+.description{
+   
+    width: 45%;
+}
+
+.showcase{
     
+    width: 44%;
+}
+.SpaceOdyssey{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.Bollywood{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.EcoCover{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.Sales{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.projects-camera{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.slideshow-container{
+    width: 44%;
+}
+
 }

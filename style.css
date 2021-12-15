@@ -13,11 +13,9 @@ html{
 
 nav{
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     overflow: hidden;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
 
@@ -27,13 +25,16 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
-    
+   
+}
+
+li{
+    float: left;
+  
 }
 
 li a {
-    text-align: center;
-    margin-top: 10px;
+    padding: 12px;
     text-decoration: none;
     font-family: rockwell;
     font-weight: lighter;
@@ -45,7 +46,7 @@ li a {
   }
 
 .intro{
-    background-color: black;
+    background-color: #000;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -55,7 +56,7 @@ li a {
 
 .intro h1{
     height: 40px;
-    color: white;
+    color: #ffff;
     font-family: rockwell;
     font-weight: lighter;
     font-size: 27px;
@@ -343,6 +344,15 @@ html{
     margin: 50px;
 }
 
+li{
+    float: right;
+}
+
+li a{
+
+    padding: 50px;
+    }
+
 .intro{
     flex-direction: row;
     height: 750px;
@@ -350,6 +360,17 @@ html{
 }
 .me{
     width: 600px;
+    margin-left: 0;
+    margin-right: -35px;
+    margin-bottom: 40px;
+}
+
+.intro h1{
+    text-align: center;
+    width: 60%;
+    padding: 40px;
+    margin-top: 300px;
+    font-size: 70px;
 }
 .aboutme{
     flex-direction: row;
@@ -411,5 +432,11 @@ html{
 .slideshow-container{
     width: 44%;
 }
+
+footer{
+
+    height: 400px;
+}
+
 
 }

@@ -46,6 +46,7 @@ li a {
   }
 
 .intro{
+   
     background-color: #000;
     height: 300px;
     display: flex;
@@ -55,6 +56,7 @@ li a {
 }
 
 .intro h1{
+ 
     height: 40px;
     color: #ffff;
     font-family: rockwell;
@@ -93,6 +95,7 @@ li a {
   
 
 .me{
+  
     display: block;
     margin: auto;
     margin-bottom: -3px;
@@ -105,6 +108,7 @@ li a {
 .aboutme{
     display: flex;
     flex-direction: column;
+  
 }
 
 
@@ -139,6 +143,11 @@ h4{
     background-color: #000;
     height: 2px;
     width: 100%;
+}
+
+.V1{
+
+    display: none;
 }
 
 
@@ -177,6 +186,8 @@ h4{
 .languagesv{
     display: block;
     width: 360px;
+    margin: auto;
+  
 }
   
 
@@ -187,7 +198,7 @@ h4{
    
 }
 
-.projects img {
+.tools{
     
     border-radius: 3px;
     width: 100%;
@@ -195,8 +206,22 @@ h4{
     margin-bottom: 30px;
 }
 
+.ToolsWithPs{
+
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+
 .projectpic{
     border: 2px solid #000;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
     
 }
 .website{
@@ -256,10 +281,7 @@ h4{
     flex-direction: column;
 
 }
-.EcoCover{
-    display: flex;
-    flex-direction: column;
-}
+
 .Sales{
     display: flex;
     flex-direction: column;
@@ -374,22 +396,77 @@ li a{
 }
 .aboutme{
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.about{
+    width: 47%;
 }
 
 .skills{
     margin-top: 0;
+    width: 47%;
+}
+
+.skillsv{
+    width: 230px;
 }
 
 .languagesv{
     margin: auto;
 }
 
-.H2{
+h4{
+    z-index: 0;
+}
+
+.projects{
+    z-index: 2;
+}
+
+.H2 {
     display: none;
 }
 
-.projects img{
+.H1 {
+    display: none;
+}
+
+.HorizontalLine{
+    background-color: #000;
+    height: 2px;
+    width: 100%;
+    
+
+}
+.VerticalLine{
+    background-color: #000;
+   
+    width: 2px;
+}
+
+
+
+.projectpic{
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.ToolsWithPs{
+    display: block;
+    margin: auto;
+    width: 450px ;
+   
+ 
+
+}
+.tools{
+
+ display: block;
+ margin: auto;
+ width: 350px ;
+ 
 }
 
 .description{
@@ -399,11 +476,30 @@ li a{
 
 .showcase{
     
-    width: 44%;
+    width: 45%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.process{
+    margin: 0px;
+   
+}
+
+.website{
+    margin: 0px;
+
 }
 .SpaceOdyssey{
     flex-direction: row-reverse;
     justify-content: space-between;
+
+
 }
 
 .Bollywood{
@@ -412,11 +508,7 @@ li a{
 
 }
 
-.EcoCover{
-    flex-direction: row-reverse;
-    justify-content: space-between;
 
-}
 
 .Sales{
     flex-direction: row-reverse;

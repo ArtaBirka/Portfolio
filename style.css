@@ -403,6 +403,10 @@ li a{
     width: 47%;
 }
 
+.about p{
+    margin-bottom: 80px;
+}
+
 .skills{
     margin-top: 0;
     width: 47%;
@@ -413,8 +417,27 @@ li a{
 }
 
 .languagesv{
+    width: 80%;
+    display: block;
     margin: auto;
 }
+
+
+.skillsvisual{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    
+}
+
+.skillsvisual p {
+
+    margin-top: 50px;
+
+
+}
+
+
 
 h4{
     z-index: 0;
@@ -453,24 +476,28 @@ h4{
 }
 
 
-.ToolsWithPs{
+.ToolsWithPs{   
+   
+    margin-bottom: 0;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 450px ;
    
- 
-
 }
+
+
 .tools{
 
- display: block;
- margin: auto;
- width: 350px ;
- 
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px ;
+   
 }
 
 .description{
-   
     width: 45%;
 }
 
@@ -498,7 +525,6 @@ h4{
 .SpaceOdyssey{
     flex-direction: row-reverse;
     justify-content: space-between;
-
 
 }
 

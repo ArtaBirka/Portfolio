@@ -12,36 +12,43 @@ html{
 
 
 nav{
+
     background-color: black;
     overflow: hidden;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+    
+    
+   
 
 }
 
-ul{ 
+nav ul{ 
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
    
 }
 
-li{
+nav li{
     float: left;
+  
+    
   
 }
 
 li a {
+    
     padding: 12px;
     text-decoration: none;
     font-family: rockwell;
     font-weight: lighter;
     font-size: 30px;
     color: #ffff;
-    
-   
+  
 
   }
 
@@ -61,7 +68,7 @@ li a {
     color: #ffff;
     font-family: rockwell;
     font-weight: lighter;
-    font-size: 27px;
+    font-family: 70px;
     width: 250px;
     
     
@@ -143,11 +150,6 @@ h4{
     background-color: #000;
     height: 2px;
     width: 100%;
-}
-
-.V1{
-
-    display: none;
 }
 
 
@@ -350,6 +352,7 @@ footer {
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: #000;
     height: 160px;
 }
@@ -359,14 +362,21 @@ footer img{
     height: 90px;
 }
 
+.footertext{
+    display: none;
+}
+
+
+
 
 @media (min-width: 1000px) {
+    
 
 html{
     margin: 50px;
 }
 
-li{
+nav li{
     float: right;
 }
 
@@ -426,15 +436,14 @@ li a{
 .skillsvisual{
     display: flex;
     flex-direction: row-reverse;
-    margin: 20px;
+    margin: 30px;
+    
     
 }
 
 .skillsvisual p {
 
     margin-top: 50px;
-
-
 }
 
 
@@ -464,6 +473,8 @@ h4{
 }
 .VerticalLine{
     background-color: #000;
+    margin-top: -55px;
+    margin-bottom:-76px ;
    
     width: 2px;
 }
@@ -552,9 +563,30 @@ h4{
 }
 
 footer{
-
-    height: 400px;
+    height: 300px;
+    margin-top: 20px;
+    
 }
 
+footer img{
+
+    height: 110px;
+}
+
+
+.footertext{
+  
+    color: #ffff;
+    font-family: rockwell;
+    font-weight: lighter;
+    font-size: 55px;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: block;
+ 
+
+}
 
 }

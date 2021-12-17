@@ -192,8 +192,6 @@ h4{
     margin: auto;
   
 }
-  
-
 
 .SpaceOdyssey{
     display: flex;
@@ -203,7 +201,7 @@ h4{
 
 .tools{
     
-    border-radius: 3px;
+    
     width: 300px;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -214,7 +212,7 @@ h4{
 
 .ToolsWithPs{
 
-    border-radius: 3px;
+   
     width: 100%;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -490,8 +488,7 @@ h4{
 .VerticalLine{
     background-color: #000;
     margin-top: -56px;
-    margin-bottom:-76px ;
-   
+    margin-bottom:-47px ;
     width: 2px;
 }
 
@@ -505,28 +502,34 @@ h4{
 
 .ToolsWithPs{   
    
-    margin-bottom: 0;
+   
     display: block;
-  
     margin-left: auto;
     margin-right: auto;
     width: 450px ;
+    align-self: flex-end;
+    
    
 }
 
 
 .tools{
 
-    margin-bottom: 0px;
+  
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 350px ;
+    align-self: flex-end;
    
 }
 
 .description{
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+   
 }
 
 .showcase{
@@ -556,6 +559,8 @@ h4{
     flex-direction: row-reverse;
     justify-content: space-between;
 
+    
+
 }
 
 .Bollywood{
@@ -574,10 +579,15 @@ h4{
 
 .projects-camera{
     margin-top: 50px;
+    margin-bottom: 50px;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
+.photographyh2{
+    margin-top: 0;
+
+}
 .projects-camera h3{
 
     margin-top: 14px;
@@ -613,6 +623,11 @@ footer img{
     display: block;
  
 
+}
+
+
+.description p:nth-last-child(3){
+    flex-grow:1;
 }
 
 }

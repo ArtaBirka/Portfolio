@@ -379,7 +379,37 @@ footer img{
     display: none;
 }
 
+ /* css for subpages when person clicks to see the process of the project*/
 
+ .goback{
+    border: solid #000;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px#949090;
+    width: 150px;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: rockwell;
+    font-weight: lighter;
+    font-size: 25px;
+
+ }
+
+ .images{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .processpic{
+    
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+ }
 
 
 @media (min-width: 1000px) {    

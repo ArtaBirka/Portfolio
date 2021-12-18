@@ -13,12 +13,14 @@ html{
 
 nav{
 
-    background-color: black;
+    background-color: #000;
     overflow: hidden;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+    
+    
     
     
    
@@ -141,16 +143,24 @@ h4{
 }
 
 
-.Hl {
+hr{
     background-color: #000;
-    height: 2px;
-    width: 100%;
+        border-width:0;
+        height: 2px;
+        width: 100%;
 }
 
-.H2 {
-    background-color: #000;
-    height: 2px;
-    width: 100%;
+
+.desktophr{
+    display: none;
+}
+
+.mobilehr{
+    
+        background-color: #000;
+        border-width:0;
+        height: 2px;
+        width: 100%;
 }
 
 
@@ -470,26 +480,32 @@ h4{
 .projects h3{
     margin-top: 55px;
 }
-.H2 {
+
+
+.mobilehr{
     display: none;
 }
 
-.H1 {
-    display: none;
-}
 
-.HorizontalLine{
+.desktophr{  
+
+    display: block;
     background-color: #000;
+    border-width:0;
     height: 2px;
     width: 100%;
-    
+  
 
+   
 }
-.VerticalLine{
-    background-color: #000;
+
+
+.vl{
+
+    border-left: 2px solid #000;
     margin-top: -56px;
     margin-bottom:-47px ;
-    width: 2px;
+    width: 6px;
 }
 
 

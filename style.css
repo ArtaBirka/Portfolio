@@ -78,6 +78,8 @@ li a {
    
 }
 
+/* Typewriter animation from Geoff Graham (https://css-tricks.com/snippets/css/typewriter-effect/) viewed on: 12/12/2021  */
+
 .typewriter{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 4px solid #949090; /* The typwriter cursor */
@@ -324,7 +326,7 @@ hr{
 
 }
 
-
+/* Slideshow function from w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp) Viewed: 14/12/2021 */
 /* Slideshow container */
 .slideshow-container {
     margin-top: 20px;
@@ -379,7 +381,7 @@ footer img{
     display: none;
 }
 
- /* css for subpages when person clicks to see the process of the project*/
+ /* css for subpages when user clicks to see the process of the project*/
 
  .goback{
     border: solid #000;

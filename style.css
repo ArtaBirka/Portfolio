@@ -690,4 +690,41 @@ footer img{
     flex-grow:1;
 }
 
+ /* css for subpages when person clicks to see the process of the project*/
+
+.goback{
+    margin-top: 0px;
+}
+ .images{
+     
+     flex-direction: row;
+     justify-content: space-around;
+   
+ }
+
+ .processpic{
+    
+  
+    width: 650px;
+  
+   
+ }
+
+ .details{
+
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+ .details-item{
+     width: 650px;
+ }
+
+ .details p{
+
+    font-size: 30px;
+  
+ 
+ }
+
 }

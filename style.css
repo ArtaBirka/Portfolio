@@ -12,9 +12,7 @@ html{
 
 
 nav{
-
     background-color: #000;
-    overflow: hidden;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top-right-radius: 3px;
@@ -27,7 +25,10 @@ nav{
 
 }
 
-nav ul{ 
+nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,12 +36,7 @@ nav ul{
    
 }
 
-nav li{
-    float: left;
-  
-    
-  
-}
+
 
 li a {
     
@@ -50,8 +46,6 @@ li a {
     font-weight: lighter;
     font-size: 30px;
     color: #ffff;
-  
-
   }
 
 .intro{
@@ -435,8 +429,9 @@ html{
 }
 
 
-nav li{
-    float: right;
+nav ul{
+    justify-content: right;
+    
 }
 
 li a{
